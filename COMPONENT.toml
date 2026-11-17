@@ -3,7 +3,7 @@ name = "SigmaOS-openjpeg2"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "openjpeg2 component"
+description = "SigmaOS SigmaOS-openjpeg2 component"
 upstream = []
 
 [contract]
