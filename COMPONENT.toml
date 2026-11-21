@@ -1,16 +1,16 @@
 [component]
-name = "SigmaOS-openjpeg2"
+name = "SigmaOS-openjpeg"
 tier = 2
 stability = "beta"
-language = "rust"
-description = "SigmaOS SigmaOS-openjpeg2 component"
+language = "shell"
+description = "SigmaOS integration for OpenJPEG JPEG2000: package management, config deployment, and CLI helpers."
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["app-manager:openjpeg"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "test.sh: syntax + metadata + isolated-HOME lifecycle checks"
+next_mestone = "Per-app config polish"
